@@ -1,0 +1,17 @@
+{
+  "name": "promize",
+  "repo": "nathan7/promize",
+  "description": "create fulfilled and rejected promises",
+  "version": "1.0.0",
+  "keywords": [
+    "promise"
+  ],
+  "dependencies": {
+    "then/promise": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
