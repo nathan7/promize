@@ -25,6 +25,10 @@
 
   Returns a rejected promise with the given rejection reason.
 
+### promize.never()
+
+  Returns a promise that will never resolve.
+
 ## License
 
   MIT

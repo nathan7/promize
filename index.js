@@ -9,3 +9,8 @@ exports.rejected =
 function promizeRejected(value) {
   return new Promise(function(resolve, reject) { reject(value) })
 }
+
+exports.never =
+function promizeNever() {
+  return new Promise(function(resolve, reject) {})
+}
