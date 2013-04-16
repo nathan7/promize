@@ -33,6 +33,18 @@
   Equivalent to promize().then(onFulfilled, onRejected).
   Useful for starting a chain of .then()s with.
 
+#### promize.resolved.then(onFulfilled, onRejected)
+
+  Alias for promize.then(onFulfilled, onRejected).
+
+#### promize.rejected.then(onFulfilled, onRejected)
+
+  Equivalent to promize.rejected().then(onFulfilled, onRejected).
+
+#### promize.never.then(onFulfilled, onRejected)
+
+  Equivalent to promize.never(), which is equivalent to promize.never().then().
+
 ## License
 
   MIT
