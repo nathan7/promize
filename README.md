@@ -1,4 +1,3 @@
-
 # promize
 
   create fulfilled and rejected promises
@@ -15,7 +14,7 @@
 
 ### promize(value)
 
-  Returns a fulfilled promise with the given fulfillment value.
+  Returns a promise resolved with the given value.
 
 ### promize.resolved(value)
 
@@ -23,7 +22,7 @@
 
 ### promize.rejected(reason)
 
-  Returns a rejected promise with the given rejection reason.
+  Returns a promise rejected with the given reason.
 
 ### promize.never()
 
