@@ -1,9 +1,11 @@
 var Promise = require('promise')
 
-module.exports = exports.resolved = exports =
+module.exports = exports =
 function promizeResolved(value) {
   return new Promise(function(resolve, reject) { resolve(value) })
 }
+
+exports.resolved = exports
 
 exports.then = function(onFulfill, onReject) {
   return exports().then(onFulfill, onReject)
