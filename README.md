@@ -30,7 +30,7 @@
 
 ### promize.then(fn)
 
-  Returns a promise fulfilled with fn's return value (or rejected with fn's thrown exception).
+  Returns a promise resolved with fn's return value (or rejected with fn's thrown exception).
   Useful for starting a chain of .then()s with.
 
 ## License
