@@ -2,7 +2,7 @@
   "name": "promize",
   "repo": "nathan7/promize",
   "description": "create fulfilled and rejected promises",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "keywords": [
     "promise"
   ],
