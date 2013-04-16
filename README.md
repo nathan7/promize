@@ -28,9 +28,9 @@
 
   Returns a promise that will never resolve.
 
-### promize.then(fn)
+### promize.then(onFulfilled, onRejected)
 
-  Returns a promise resolved with fn's return value (or rejected with fn's thrown exception).
+  Equivalent to promize().then(onFulfilled, onRejected).
   Useful for starting a chain of .then()s with.
 
 ## License
