@@ -13,6 +13,6 @@
   "author": "Nathan Zadoks",
   "license": "MIT",
   "dependencies": {
-    "promise": "~2.0.0"
+    "promise": ">=3.2<4"
   }
 }
